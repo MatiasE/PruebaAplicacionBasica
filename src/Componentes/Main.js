@@ -5,11 +5,37 @@ class Main extends React.Component {
   render() {
     return (
       <main>
-        <section>
-          <article>Articulo 1</article>
-          <article>Articulo 2</article>
-          <article>Articulo 3</article>
-        </section>
+        <table id="customer">
+          <thead>
+            <tr>
+              <th>LP</th>
+              <th>Hecho</th>
+              <th>Orden</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>HTML</td>
+              <td>Visto</td>
+              <td>1</td>
+            </tr>
+            <tr>
+              <td>CSS</td>
+              <td>Visto</td>
+              <td>2</td>
+            </tr>
+            <tr>
+              <td>JAVASCRIPT</td>
+              <td>Visto</td>
+              <td>3</td>
+            </tr>
+            <tr>
+              <td>REACT</td>
+              <td>Viendo</td>
+              <td>4</td>
+            </tr>
+          </tbody>
+        </table>
       </main>
     );
   }
