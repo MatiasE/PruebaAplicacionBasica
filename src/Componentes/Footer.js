@@ -3,11 +3,7 @@ import "./Footer.css";
 
 class Footer extends React.Component {
   render() {
-    return (
-      <div class="Footer">
-        <h1>Soy el Footer</h1>
-      </div>
-    );
+    return <footer>Todos los derechos Reservados. 2021.</footer>;
   }
 }
 
