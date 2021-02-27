@@ -9,8 +9,8 @@ import Footer from "./Componentes/Footer.js";
 export default function App() {
   return (
     <div className="App">
-      <Navbar />,
-      <Cuerpo />,
+      <Navbar />
+      <Cuerpo />
       <Footer />
     </div>
   );
