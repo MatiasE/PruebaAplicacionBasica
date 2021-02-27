@@ -15,7 +15,7 @@ class Navbar extends React.Component {
           <li>
             <a href="#contact">Contact</a>
           </li>
-          <li class="right">
+          <li className="right">
             <a href="#about">About</a>
           </li>
         </ul>

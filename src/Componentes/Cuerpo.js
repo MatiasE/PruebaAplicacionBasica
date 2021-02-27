@@ -6,7 +6,7 @@ import "./Cuerpo.css";
 class Cuerpo extends React.Component {
   render() {
     return (
-      <div class="Cuerpo">
+      <div className="Cuerpo">
         <Main />
         <Aside />
       </div>
