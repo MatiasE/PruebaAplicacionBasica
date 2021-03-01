@@ -7,16 +7,16 @@ class Navbar extends React.Component {
       <div>
         <ul>
           <li>
-            <a href="#home">Home</a>
+            <a href="#home">Principal</a>
           </li>
           <li>
-            <a href="#news">News</a>
+            <a href="#news">Noticias</a>
           </li>
           <li>
-            <a href="#contact">Contact</a>
+            <a href="#contact">Contacto</a>
           </li>
           <li className="right">
-            <a href="#about">About</a>
+            <a href="#about">Sobre Mi</a>
           </li>
         </ul>
       </div>
