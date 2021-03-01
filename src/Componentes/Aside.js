@@ -15,7 +15,7 @@ class Aside extends React.Component {
               <div class="col-75">
                 <input
                   type="text"
-                  id="fname"
+                  id="nombre"
                   name="nombre"
                   placeholder="Tu nombre.."
                 />
@@ -28,7 +28,7 @@ class Aside extends React.Component {
               <div class="col-75">
                 <input
                   type="text"
-                  id="lname"
+                  id="apellido"
                   name="apellido"
                   placeholder="Tu apellido.."
                 />
@@ -41,9 +41,9 @@ class Aside extends React.Component {
               <div class="col-75">
                 <input
                   type="number"
-                  id="age"
+                  id="edad"
                   name="edad"
-                  placeholder="Tu edad"
+                  placeholder="Tu edad.."
                 />
               </div>
             </div>
